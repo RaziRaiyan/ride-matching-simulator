@@ -1,0 +1,19 @@
+{
+	"name": "ride-matching-service",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"start": "concurrently \"node rider-app/simulator.js\" \"node driver-app/simulator.js\" \"node ride-matching-service/server.js\" \"node notification-service/server.js\"",
+		"start-rider-app": "node rider-app/simulator.js",
+		"start-driver-app": "node driver-app/simulator.js",
+		"start-ride-matching-service": "node ride-matching-service/server.js",
+		"start-notification-service": "node notification-service/server.js"
+	},
+	"dependencies": {
+		"redis": "^4.7.0"
+	},
+	"devDependencies": {
+		"concurrently": "^9.1.2"
+	}
+}

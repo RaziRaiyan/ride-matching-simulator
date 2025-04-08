@@ -1,0 +1,15 @@
+{
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.configPath": ".prettierc.json",
+	"editor.formatOnSave": true,
+	"files.trimTrailingWhitespace": false,
+	"prettier.useEditorConfig": true,
+	"search.exclude": {
+		"**/.git": true,
+		"**/node_modules": true,
+		"**/bower_components": true,
+		"**/tmp": true,
+		"**/dist": true
+	},
+	"cSpell.words": ["accordian", "clsx", "VITE"]
+}
